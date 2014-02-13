@@ -117,3 +117,14 @@ li {
 	float: none;
 }
 
+#register div#register {
+	-webkit-border-radius: 9px 9px 6px 6px;
+	-moz-border-radius: 9px 9px 6px 6px;
+	-ms-border-radius: 9px 9px 6px 6px;
+	-o-border-radius: 9px 9px 6px 6px;
+	border-radius: 9px 9px 6px 6px;
+	float: left;
+	width: 430px;
+	margin: 10px 10px 0 0;
+	border: 1px solid #b0b0b0;
+}
