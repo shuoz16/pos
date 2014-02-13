@@ -1,0 +1,119 @@
+
+body {
+	font-family: Arial,Helvetica,Sans-Serif;
+	font-size: 12px;
+	line-height: 1.3em;
+	padding: 0;
+	margin: 0;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	color: #333;
+}
+
+
+div {
+	display: block;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+
+#top-nav {
+	background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#444),color-stop(100%,#1a1a1a));
+	background-image: -webkit-linear-gradient(#444,#1a1a1a);
+	background-image: -moz-linear-gradient(#444,#1a1a1a);
+	background-image: -o-linear-gradient(#444,#1a1a1a);
+	background-image: linear-gradient(#444,#1a1a1a);
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	clear: both;
+	color: #d6d6d6;
+}
+
+#top-nav .inner, #heading .inner {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#top-nav #nav {
+	float: left;
+	margin: 0 10px;
+}
+
+#top-nav ul {
+	float: right;
+}
+
+#top-nav ul li {
+	float: left;
+}
+
+#top-nav #nav ul li a {
+	text-shadow: 0 1px 0 #000;
+	display: inline-block;
+	font-weight: bold;
+	color: #d6d6d6;
+	text-decoration: none;
+	text-decoration: none;
+	padding: 10px 16px;
+	font-size: 13px;
+	-webkit-font-smoothing: antialiased;
+}
+
+#top-nav #right-nav {
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+#top-nav #right-nav li a {
+	text-shadow: 0 1px 0 #000;
+	display: inline-block;
+	font-weight: bold;
+	color: #d6d6d6;
+	text-decoration: none;
+	padding: 10px 13px 8px;
+}
+
+#heading {
+	-webkit-box-shadow: 1px 2px 2px #ddd;
+	-moz-box-shadow: 1px 2px 2px #ddd;
+	box-shadow: 1px 2px 2px #ddd;
+	background: #76cc1e;
+	border-bottom: 1px solid #76cc1e;
+	min-height: 10px;
+}
+
+.tabs-item.current {
+	text-shadow: none;
+}
+
+.tabs-item {
+	display: inline-block;
+	padding: 7px 18px;
+}
+
+.tabs-item-link {
+	text-decoration: none;
+	text-shadow: 0 1px 0 #76cc1e;
+	font-weight: normal;
+	color: #000;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+.clearer {
+	height: 0;
+	clear: both;
+	float: none;
+}
+
